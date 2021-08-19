@@ -5,16 +5,14 @@
   </p>
   <p>
 
+[![MeterianHQ](https://circleci.com/gh/MeterianHQ/actix.svg?style=svg)](https://app.circleci.com/pipelines/github/MeterianHQ/actix)
 [![crates.io](https://img.shields.io/crates/v/actix?label=latest)](https://crates.io/crates/actix)
 [![Documentation](https://docs.rs/actix/badge.svg?version=0.12.0)](https://docs.rs/actix/0.12.0)
 [![Version](https://img.shields.io/badge/rustc-1.46+-ab6000.svg)](https://blog.rust-lang.org/2019/12/19/Rust-1.46.0.html)
 ![License](https://img.shields.io/crates/l/actix.svg)
 [![Dependency Status](https://deps.rs/crate/actix/0.12.0/status.svg)](https://deps.rs/crate/actix/0.12.0)
 <br />
-[![build status](https://github.com/actix/actix/workflows/CI%20%28Linux%29/badge.svg?branch=master&event=push)](https://github.com/actix/actix/actions)
-[![codecov](https://codecov.io/gh/actix/actix/branch/master/graph/badge.svg)](https://codecov.io/gh/actix/actix)
 ![Downloads](https://img.shields.io/crates/d/actix.svg)
-[![Chat on Discord](https://img.shields.io/discord/771444961383153695?label=chat&logo=discord)](https://discord.gg/GMuKN5b8aR)
 
   </p>
 </div>
