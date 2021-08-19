@@ -5,13 +5,16 @@
   </p>
   <p>
 
+[![security status](https://www.meterian.com/badge/pb/63f87fdc-9692-429a-b878-8a31be7ef965/security)](https://www.meterian.com/projects/?pid=63f87fdc-9692-429a-b878-8a31be7ef965)
+[![stability status](https://www.meterian.com/badge/pb/63f87fdc-9692-429a-b878-8a31be7ef965/stability)](https://www.meterian.com/projects/?pid=63f87fdc-9692-429a-b878-8a31be7ef965)
+[![licensing status](https://www.meterian.com/badge/pb/63f87fdc-9692-429a-b878-8a31be7ef965/licensing)](https://www.meterian.com/projects/?pid=63f87fdc-9692-429a-b878-8a31be7ef965)
 [![MeterianHQ](https://circleci.com/gh/MeterianHQ/actix.svg?style=svg)](https://app.circleci.com/pipelines/github/MeterianHQ/actix)
+<br />
 [![crates.io](https://img.shields.io/crates/v/actix?label=latest)](https://crates.io/crates/actix)
 [![Documentation](https://docs.rs/actix/badge.svg?version=0.12.0)](https://docs.rs/actix/0.12.0)
 [![Version](https://img.shields.io/badge/rustc-1.46+-ab6000.svg)](https://blog.rust-lang.org/2019/12/19/Rust-1.46.0.html)
 ![License](https://img.shields.io/crates/l/actix.svg)
 [![Dependency Status](https://deps.rs/crate/actix/0.12.0/status.svg)](https://deps.rs/crate/actix/0.12.0)
-<br />
 ![Downloads](https://img.shields.io/crates/d/actix.svg)
 
   </p>
