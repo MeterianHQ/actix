@@ -1,0 +1,19 @@
+version: 2.1
+
+orbs:
+  docker: circleci/docker@0.5.20
+jobs:
+  meterian:
+    machine: true
+    steps:
+      - checkout
+      - run: |
+            docker run --rm \
+            --volume ${PWD}:/workspace \
+            meterian/cli-canary -oss
+
+workflows:
+  version: 2
+  commit-workflow:
+    jobs:
+      - meterian
