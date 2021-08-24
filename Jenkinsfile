@@ -18,7 +18,7 @@ pipeline {
             steps {
                 withCredentials([string(credentialsId: 'MeterianApiToken', variable: 'METERIAN_API_TOKEN')]) {
                     sh '''
-                        echo Perform Meterian vulnerability scan...'
+                        echo Perform Meterian vulnerability scan...
                         docker run --rm -v $(pwd):/workspace -e METERIAN_API_TOKEN=$METERIAN_API_TOKEN meterian/cli
                     '''
                 }
