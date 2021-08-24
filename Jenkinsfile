@@ -16,9 +16,11 @@ pipeline {
         }
         stage('Meterian Scan') {
             steps {
-                withCredentials([string(credentialsId: 'meterianApiToken', variable: 'METERIAN_API_TOKEN_MTA')]) {
-                    sh 'echo Perform Meterian vulnerability scan...'
-                    sh 'docker run --rm -v $(pwd):/workspace -e METERIAN_API_TOKEN=$METERIAN_API_TOKEN_MTA meterian/cli' 
+                withCredentials([string(credentialsId: 'MeterianApiToken', variable: 'METERIAN_API_TOKEN')]) {
+                    sh '''
+                        echo Perform Meterian vulnerability scan...'
+                        docker run --rm -v $(pwd):/workspace -e METERIAN_API_TOKEN=$METERIAN_API_TOKEN meterian/cli
+                    '''
                 }
             }
         }
