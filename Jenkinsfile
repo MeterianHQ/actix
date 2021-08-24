@@ -17,7 +17,7 @@ pipeline {
         stage('Meterian Scan') {
             steps {
                 sh 'echo Perform Meterian vulnerability scan...'
-                //sh 'docker run --rm -v $(pwd):/workspace -e METERIAN_API_TOKEN=$METERIAN_API_TOKEN meterian/cli' 
+                sh 'docker run --rm -v $(pwd):/workspace -e METERIAN_API_TOKEN=$METERIAN_API_TOKEN meterian/cli' 
             }
         }
         stage("Deploy") {
