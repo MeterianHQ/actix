@@ -10,7 +10,7 @@ jobs:
       - run: |
             docker run --rm \
             --volume ${PWD}:/workspace \
-            meterian/cli-canary --oss
+            meterian/cli --oss
 
 workflows:
   version: 2
